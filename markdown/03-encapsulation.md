@@ -209,7 +209,7 @@ Vi kikker nærmere på funksjoner med navn som er omringet av `__` senere
 
 ```Python[]
 class Person:
-    def er_like_gammel_som(self, andre: Person) -> bool:
+    def er_like_gammel_som(self, andre):
         return self.alder == andre.alder
 
 person1 = Person("Joakim", "Lier", 28, "Cisco")
@@ -234,7 +234,7 @@ I Python må funksjoner som tilhører en klasse må ta inn parameteren `self`.
 ```Python[]
 class Person:
     # Legg merke til self parameteren
-    def er_over_20(self) -> bool:
+    def er_over_20(self):
         return self.alder > 20
 
 person1 = Person("Joakim", "Lier", 28, "Cisco")
@@ -253,7 +253,7 @@ Gir funksjonen en måte å kunne lese sine egne medlemmer
 
 ```python[]
 class Person:
-   def er_over_20(self) -> bool:
+   def er_over_20(self):
       # feil!
       # ikke self, da vet ikke python
       # hvilken alder du snakker om
@@ -263,7 +263,7 @@ class Person:
 
 ```python[]
 class Person:
-   def er_over_20(self) -> bool:
+   def er_over_20(self):
       # riktig!
       # her bruker vi self, da vet
       # python hvor den skal lete
@@ -272,10 +272,6 @@ class Person:
 
 
 ### \_\_funksjoner\_\_
-
-TODO
-
-trengs det? kanskje.
 
 
 De kalles "magiske metoder"
@@ -329,4 +325,8 @@ print(bra)
 ### Oppsummering
 
 Vi bruker klasser for å samle informasjon og funksjoner som hører sammen
+
+
+Vi oppretter objekter basert på disse klassene, så vi lett kan jobbe med
+dem. Nå kan vi ha en variabel som beskriver en person, istedet for flere!
 

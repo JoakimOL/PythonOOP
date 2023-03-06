@@ -17,9 +17,9 @@ TODO fiks gjennomsiktig
 ```python[]
 #Grunnklasse
 class Person:
-    def __init__(self, fornavn:str,
-                       etternavn:str,
-                       alder:int):
+    def __init__(self, fornavn,
+                       etternavn,
+                       alder):
         self.fornavn = fornavn
         self.etternavn = etternavn
         self.alder = alder
@@ -33,16 +33,16 @@ class Person:
 
 ```python[|1,8|1,8,5,12]
 class Elev(Person): # Arver fra Person
-    def __init__(self, fornavn:str,
-                 etternavn:str,
-                 alder:int, skole:str):
+    def __init__(self, fornavn,
+                 etternavn,
+                 alder, skole):
         super().__init__(fornavn,etternavn,alder)
         self.skole = skole
 
 class Ansatt(Person): # Arver fra Person
-    def __init__(self, fornavn:str,
-                       etternavn:str,
-                       alder:int, jobb:str):
+    def __init__(self, fornavn,
+                       etternavn,
+                       alder, jobb):
         super().__init__(fornavn,etternavn,alder)
         self.jobb = jobb
 
