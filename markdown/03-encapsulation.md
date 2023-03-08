@@ -97,9 +97,6 @@ En klasse inneholder informasjonen som hører til en ting
 - Egne funksjoner
 
 
-> Som en bruker kan vi anta at klassen holder styr på seg selv
-så vi kan bruke dem i koden vår, uten å måtte tenke over hvordan klassen fungerer
-
 
 ### Encapsulation - Klasser
 
@@ -121,6 +118,14 @@ print(person1.fornavn)
 ```
 - Tydelig hva som definerer en person
 - Tydelig hva som menes med koden
+
+NOTE: først "class"-nøkkelordet
+
+så en medlemsfunksjon, mer om init senere
+
+så en instansiering, og en til som er mer tydelig.
+
+Åpenbart hva som printes på slutten
 
 
 Vi bruker punktum for å få tak i ting inni en klasse
@@ -202,12 +207,13 @@ class Person:
 ```
 
 
-Vi kikker nærmere på funksjoner med navn som er omringet av `__` senere
+<!-- Vi kikker nærmere på funksjoner med navn som er omringet av `__` senere -->
+🐍 Funksjoner som er omringet av `__` kommer vi tilbake til.
 
 
 ### Funksjoner
 
-```Python[]
+```Python[|8|9,10]
 class Person:
     def er_like_gammel_som(self, andre):
         return self.alder == andre.alder
@@ -221,14 +227,7 @@ print(er_like_gammel_som(person2))         # gir ikke mening
 ```
 
 
-### Funksjoner, medlemmer eller metoder?
-
-Vi sier at en funksjon eller variabel som tilhører en klasse er et _medlem_
-
-Noen ganger brukes ordet _metode_ istedet for medlemsfunksjon
-
-
-### Funksjoner - self
+### Funksjoner - self 🐍
 I Python må funksjoner som tilhører en klasse må ta inn parameteren `self`.
 
 ```Python[]
@@ -271,7 +270,14 @@ class Person:
 ```
 
 
-### \_\_funksjoner\_\_
+### Funksjoner, medlemmer eller metoder?
+
+Vi sier at en funksjon eller variabel som tilhører en klasse er et _medlem_
+
+Noen ganger brukes ordet _metode_ istedet for medlemsfunksjon
+
+
+### \_\_funksjoner\_\_🐍
 
 
 De kalles "magiske metoder"
@@ -279,11 +285,11 @@ De kalles "magiske metoder"
 Er ikke ment til å brukes direkte
 
 
-Python bruker dem automatisk i visse situasjoner
+Python bruker dem automagisk i visse situasjoner
 
 
 
-### \_\_init\_\_
+### \_\_init\_\_🐍
 
 Denne kalles hver gang du lager et objekt!
 
@@ -295,8 +301,10 @@ class Person:
 person1 = Person() # Dette printer "Nå ble jeg laget!"
 ```
 
+Kalles ofte en konstruktør i andre språk
 
-### \_\_str\_\_
+
+### \_\_str\_\_🐍
 
 Kort for "string"
 
@@ -320,6 +328,13 @@ print(dårlig)
 print(bra)
 # printer "Jeg er bra!"
 ```
+
+
+\_\_add\_\_ og \_\_ge\_\_ for matematiske operasjoner
+
+\_\_call\_\_ for å lage objekter som oppfører seg som funksjoner
+
+\_\_enter\_\_ og \_\_exit\_\_ for å kunne bruke `with`-nøkkelordet
 
 
 ### Oppsummering

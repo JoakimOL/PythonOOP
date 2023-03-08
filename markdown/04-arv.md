@@ -9,8 +9,6 @@ En måte å skille ut det de har til felles kalles arv
 Dette betyr at hvis en klasse arver fra en annen, vil barnet få de samme medlemmene som forelderen.
 
 
-TODO fiks gjennomsiktig
-
 ![arv](assets/arv.png)
 
 
@@ -96,7 +94,7 @@ Kanskje det finnes en felles "figur"-klasse som arves fra?
 Da slipper de å programmere alt alle figurer har til felles på nytt!
 
 
-OBS!
+OBS!🐍
 
 I oppgavene vil dere se
 ```python
@@ -104,4 +102,6 @@ class Arv(Noe):
     pass
 ```
 
-Dette betyr at klassen `Arv` arver fra klassen `Noe`, men endrer ingenting så den er veldig lik `Noe`. Dette brukes for å lage et startpunkt for dere, men er ellers ofte en nytteløs ting å gjøre :)
+Dette betyr at klassen `Arv` arver fra klassen `Noe`, men endrer ingenting så den er veldig lik `Noe`.
+
+Dette brukes for å lage et startpunkt for dere, men er ellers ofte en nytteløs ting å gjøre :)

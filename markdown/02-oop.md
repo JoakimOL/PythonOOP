@@ -22,6 +22,14 @@ Mange språk lar deg _ikke_ skrive objektorientert kode
 Mange språk lar deg kombinere paradigmer
 
 
+🐍Python er en god blanding av mye
+
+
+I noen av oppgavene og kodesnuttene vi skal se på er OOP antageligvis ikke den beste løsningen
+
+Men vi gjør det for å lære
+
+
 ### Encapsulation, Inheritance, Polymorphism
 Objektorientert programmering kan beskrives med 3 egenskaper.
 
