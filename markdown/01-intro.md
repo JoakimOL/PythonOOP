@@ -1,5 +1,17 @@
 ## Objektorientert Programmering med Python
+
+
 ### Joakim Lier, Cisco Systems Norway
+
+- Jobber som blant annet software engineer<!-- .element: class="fragment" -->
+- Veldig god til å si ja<!-- .element: class="fragment" -->
+- Studerte Informatikk ved UiO<!-- .element: class="fragment" -->
+- Og så datateknologi ved NTNU<!-- .element: class="fragment" -->
+- Drev mye med high performance computing<!-- .element: class="fragment" -->
+- og programmeringsspråk<!-- .element: class="fragment" -->
+
+
+💖Programmeringsspråk💖
 
 
 # Plan for dagen!
