@@ -47,9 +47,9 @@ Note: variabler og funksjonskall
 # Quiz!
 
 ```python
-element = [1]
-element.append(12)
-element.append('b')
+liste = [1]
+liste.append(12)
+liste.append('b')
 
 for element in liste:
     if element == 1:

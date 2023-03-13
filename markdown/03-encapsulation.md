@@ -244,7 +244,7 @@ print(person1.er_over_20())
 
 Denne blir automagisk sendt inn når du kaller på funksjonen
 
-Gir funksjonen en måte å kunne lese sine egne medlemmer
+Gir funksjonen en måte å kunne lese sine egne variabler
 
 
 > automagisk = magisk og automatisk
@@ -283,6 +283,8 @@ Noen ganger brukes ordet _metode_ istedet for medlemsfunksjon
 De kalles "magiske metoder"
 
 Er ikke ment til å brukes direkte
+
+> 🔎 Magic methods python, dunder python
 
 
 Python bruker dem automagisk i visse situasjoner

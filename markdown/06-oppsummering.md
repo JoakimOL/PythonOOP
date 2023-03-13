@@ -29,3 +29,10 @@ Da får den alle medlemmene til forelderen.
 Polymorfisme er når en barneklasse endrer på en arvet funksjon
 
 Den gjør noe liknende forelderen sin, men på sin egen måte.
+
+
+Ved å bruke disse egenskapene kan vi skrive programmer med
+mennesker, biler og møbler
+
+
+Uten å glemme at ulike mennesker, biler og møbler er forskjellige
