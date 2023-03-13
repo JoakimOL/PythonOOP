@@ -9,6 +9,12 @@ En måte å skille ut det de har til felles kalles arv
 Dette betyr at hvis en klasse arver fra en annen, vil barnet få de samme medlemmene som forelderen.
 
 
+En klasse som arves fra kalles foreldreklasse, grunnklasse, superklasse
+
+
+En klasse som arver kalles barneklasse, derivert klasse, subklasse
+
+
 ![arv](assets/arv.png)
 
 
@@ -59,6 +65,22 @@ elev1.si_hallo()
 # Men har nå også et medlem som heter skole!
 print(elev1.skole)
 ```
+
+
+🐍
+```python[|2|2,5]
+class Ansatt(Person):
+    def __init__(self, fornavn,
+                       etternavn,
+                       alder, jobb):
+        super().__init__(fornavn,etternavn,alder)
+```
+
+super() gir oss foreldreklassen, så vi kan kjøre forelderens `__init__`
+
+
+> Hvorfor må vi bruke super(), og ikke bare si `__init__(..)`?
+
 
 
 For å bygge intuisjon om når dette kan bli nyttig:
