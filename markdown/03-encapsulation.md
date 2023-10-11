@@ -146,7 +146,9 @@ print(person1.jobb)
 
 
 ### Encapsulation - Klasser
-![autocomplete](assets/autocomplete.png)
+
+> Det er her du skal vise fram en demo
+> encapsulation task 2
 
 
 ### Klasser eller objekter?

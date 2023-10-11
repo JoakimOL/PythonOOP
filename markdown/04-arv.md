@@ -15,7 +15,7 @@ En klasse som arves fra kalles foreldreklasse, grunnklasse, superklasse
 En klasse som arver kalles barneklasse, derivert klasse, subklasse
 
 
-![arv](assets/arv.png)
+![arv](assets/arv.drawio.png)
 
 
 ```python[]
